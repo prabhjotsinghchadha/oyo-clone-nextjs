@@ -1,2 +1,2 @@
-## Creating Ola Clone in Next JS
+## Creating Oyo Clone in Next JS
 
