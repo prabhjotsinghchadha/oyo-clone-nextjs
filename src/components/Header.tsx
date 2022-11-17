@@ -23,8 +23,8 @@ function Header() {
         />
       </div>
       {/* Medium */}
-      <div className="grid grid-flow-col grid-rows-2 border-r-2 border-gray-300">
-        <UserGroupIcon className="row-span-3 h-6 w-6 self-center" />
+      <div className="grid cursor-pointer grid-flow-col grid-rows-2 border-r-2 border-gray-300">
+        <UserGroupIcon className="row-span-3 mx-4 h-6 w-6 self-center" />
         <span className="col-span-2 text-sm font-semibold">
           Become a member
         </span>
@@ -32,8 +32,8 @@ function Header() {
           Additional 10% off on stays
         </span>
       </div>
-      <div className="grid grid-flow-col grid-rows-2 border-r-2 border-gray-300">
-        <BriefcaseIcon className="row-span-3 h-6 w-6 self-center" />
+      <div className="grid cursor-pointer grid-flow-col grid-rows-2 border-r-2 border-gray-300">
+        <BriefcaseIcon className="row-span-3 mx-4 h-6 w-6 self-center" />
         <span className="col-span-2 text-sm font-semibold">
           OYO for Business
         </span>
@@ -41,8 +41,8 @@ function Header() {
           Corporate booking solution
         </span>
       </div>
-      <div className="grid grid-flow-col grid-rows-2 border-r-2 border-gray-300">
-        <BuildingOffice2Icon className="row-span-3 h-6 w-6 self-center" />
+      <div className="grid cursor-pointer grid-flow-col grid-rows-2 border-r-2 border-gray-300">
+        <BuildingOffice2Icon className="row-span-3 mx-4 h-6 w-6 self-center" />
         <span className="col-span-2 text-sm font-semibold">
           List your property
         </span>
@@ -51,12 +51,12 @@ function Header() {
         </span>
       </div>
       {/* Right */}
-      <div className="flex flex-row items-center justify-center border-r-2 border-gray-300">
-        <GlobeAltIcon className="h-6 w-6" />
+      <div className="flex cursor-pointer flex-row items-center justify-center border-r-2 border-gray-300">
+        <GlobeAltIcon className="mr-1 h-6 w-6" />
         <span className="text-sm font-bold">English</span>
       </div>
-      <div className="flex flex-row items-center justify-center">
-        <UserIcon className="h-6 w-6" />
+      <div className="flex cursor-pointer flex-row items-center justify-center">
+        <UserIcon className="mx-1 ml-3 h-6 w-6" />
         <span className="text-sm font-bold">Login / Signup</span>
       </div>
     </header>

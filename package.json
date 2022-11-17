@@ -20,6 +20,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "@next/font": "^13.0.3",
     "next": "^13.0.3",
     "next-seo": "^5.14.1",
@@ -30,7 +31,6 @@
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "@commitlint/cz-commitlint": "^17.2.0",
-    "@heroicons/react": "^2.0.13",
     "@next/bundle-analyzer": "^13.0.3",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.5",
