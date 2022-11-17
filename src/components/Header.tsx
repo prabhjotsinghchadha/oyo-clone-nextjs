@@ -13,7 +13,7 @@ function Header() {
   return (
     <header className="grid grid-cols-6 bg-white px-8 shadow md:px-16 ">
       {/* Left */}
-      <div className="relative my-auto flex h-20 cursor-pointer items-center">
+      <div className="relative my-auto flex h-full cursor-pointer items-center">
         <Image
           src={oyologo}
           layout="fill"

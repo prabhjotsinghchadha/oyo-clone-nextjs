@@ -1,16 +1,44 @@
+import { ChevronDownIcon } from '@heroicons/react/24/outline';
+
 function CityRow() {
   return (
-    <div className="my-2 flex flex-row gap-6 border-b-4 px-6 py-1.5">
-      <div className="text-sm text-slate-500"> Bangalore </div>
-      <div className="text-sm text-slate-500"> Chennai </div>
-      <div className="text-sm text-slate-500"> Delhi</div>
-      <div className="text-sm text-slate-500"> Gurgaon </div>
-      <div className="text-sm text-slate-500"> Hyderabad </div>
-      <div className="text-sm text-slate-500"> Kolkata </div>
-      <div className="text-sm text-slate-500"> Mumbai </div>
-      <div className="text-sm text-slate-500"> Noida </div>
-      <div className="text-sm text-slate-500"> Pune </div>
-      <div className="text-sm text-slate-500"> All Cities </div>
+    <div className="my-2 flex flex-row gap-6 border-b-4 px-6 py-1.5 text-sm text-slate-500">
+      <div className="flex ">
+        <div>Bangalore</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
+      <div className="flex ">
+        <div>Chennai</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
+      <div className="flex ">
+        <div>Delhi</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
+      <div className="flex ">
+        <div>Gurgaon</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
+      <div className="flex ">
+        <div>Hyderabad</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
+      <div className="flex ">
+        <div>Kolkata</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
+      <div className="flex ">
+        <div>Mumbai</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
+      <div className="flex ">
+        <div>Noida</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
+      <div className="flex ">
+        <div>Pune</div>
+        <ChevronDownIcon className="h-4 w-4 cursor-pointer" />
+      </div>
     </div>
   );
 }

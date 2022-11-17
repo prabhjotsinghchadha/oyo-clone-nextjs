@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function HeroSection() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-start justify-start">
       <div className="relative h-screen w-full">
         <Image
           src={
