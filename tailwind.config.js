@@ -1,6 +1,11 @@
+const YAML = require('./src/utils/tailwind/yaml');
+
+const extensions = YAML.read('./src/utils/tailwind/elements/entensions.yaml');
+const foundations = YAML.read('./src/utils/tailwind/elements/foundations.yaml');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -39,6 +44,8 @@ module.exports = {
           900: '#2a4365',
         },
       },
+      ...foundations,
+      ...extensions,
     },
   },
   plugins: [],
