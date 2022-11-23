@@ -10,8 +10,19 @@ import Image from 'next/image';
 import oyologo from '../../public/assets/images/oyo-logo.svg';
 
 function Header() {
+  const styles = {
+    container: {
+      className: `
+          grid grid-cols-6 
+          px-8 md:px-16
+          bg-white shadow 
+          desktop: grid-cols-8
+      `,
+    },
+  };
+
   return (
-    <header className="grid grid-cols-6 bg-white px-8 shadow md:px-16 ">
+    <header {...styles.container}>
       {/* Left */}
       <div className="relative my-auto flex h-full cursor-pointer items-center">
         <Image

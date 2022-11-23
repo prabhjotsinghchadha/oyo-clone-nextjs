@@ -19,3 +19,5 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+ .box { @apply text-white bg-green-500 min-h-[50px] pt-[10%] pl-[15%] rounded-lg }

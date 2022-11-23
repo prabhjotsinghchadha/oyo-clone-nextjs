@@ -1,0 +1,36 @@
+/*
+  ======================================
+    These are our global styles. The root
+    components have a hidden overflow so
+    you need to make your components overflow
+    on will. Ideally you should be using some
+    library that supports theming and not rely
+    on making CSS modules at all. But you do
+    have an option to simply use CSS modules.
+  ======================================
+*/
+
+html,
+body,
+#__next {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boxCheck { @apply text-white bg-green-500 min-h-[50px] pt-[10%] pl-[15%] rounded-lg }
+

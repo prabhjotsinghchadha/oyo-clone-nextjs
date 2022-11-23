@@ -1,0 +1,302 @@
+screens:
+  mobile:
+    max: 767px
+  mobile-sm:
+    max: 320px
+  mobile-md:
+    min: 321px
+    max: 375px
+  mobile-lg:
+    min: 376px
+    max: 425px
+  mobile-xl:
+    min: 426px
+    max: 767px
+  tablet:
+    min: 768px
+    max: 991px
+  tabloid:
+    max: 991px
+  desktop:
+    min: 992px
+  desktop-sm:
+    min: 992px
+    max: 1024px
+  desktop-md:
+    min: 1025px
+    max: 1440px
+  desktop-lg:
+    min: 1441px
+    max: 1920px
+  desktop-4k:
+    min: 1921px
+    max: 2560px
+  desktop-8k:
+    min: 2561px
+filter:
+  none: none
+  grayscale: grayscale(1)
+  invert: invert(1)
+  sepia: sepia(1)
+backdropFilter:
+  none: none
+  blur: blur(4px)
+  blur-1: blur(1px)
+  blur-2: blur(2px)
+  blur-3: blur(3px)
+  blur-4: blur(4px)
+  blur-5: blur(5px)
+  blur-10: blur(10px)
+  blur-15: blur(15px)
+  blur-20: blur(20px)
+  blur-25: blur(25px)
+  blur-30: blur(30px)
+  blur-35: blur(35px)
+  blur-40: blur(40px)
+  blur-45: blur(45px)
+  blur-50: blur(50px)
+  blur-55: blur(55px)
+  blur-60: blur(60px)
+  blur-65: blur(65px)
+  blur-75: blur(75px)
+  blur-80: blur(80px)
+  blur-85: blur(85px)
+  blur-90: blur(90px)
+  blur-95: blur(95px)
+  blur-100: blur(100px)
+fontFamily:
+  body: SF UI Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol
+  heading: SF UI Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol
+  monospace: SF Mono,Monaco,Inconsolata,Fira Mono,Droid Sans Mono,Source Code Pro,monospace
+colors:
+  background: transparent
+  current: currentColor
+
+  scroll:
+    light:
+      regular: "#4D4D4D"
+      hover: "#3D3D3D"
+    dark:
+      regular: "#3D3D3D"
+      hover: "#4D4D4D"
+
+  theme:
+    dark:
+      50: "#FFFFFF"
+      100: "#F7F8F8"
+      200: "#5E6AD2"
+      250: "#4F46E5"
+      300: "#F2C94C"
+      400: "#F74040"
+      500: "#8A8F98"
+      600: "#81808E"
+      700: "#303236"
+      800: "#27282B"
+      900: "#1F2023"
+      1000: "#040406"
+    light:
+      50: "#FEFEFE"
+      100: "#F1FAEE"
+      200: "#A8DADC"
+      300: "#457B9D"
+      400: "#5E6AD2"
+      450: "#4F46E5"
+      500: "#1D3557"
+      600: "#E63946"
+      700: "#F74040"
+      800: "#F2C94C"
+      900: "#FDE047"
+      1000: "#FFA400"
+      1100: "#A16207"
+      1200: "#28965A"
+      1300: "#488B49"
+      1400: "#1B1B1E"
+
+  pokemon:
+    electric:
+      100: "#FEFBF7"
+      200: "#FFF1CE"
+      300: "#F5E383"
+      400: "#F3DB95"
+      500: "#FEC114"
+      600: "#D299AC"
+      700: "#DA6E57"
+      800: "#786751"
+      900: "#3E4242"
+    water:
+      100: "#FFFFFF"
+      200: "#E8EFF5"
+      300: "#B6BFD1"
+      400: "#AFE5E5"
+      500: "#478ECD"
+      600: "#84A2C6"
+      700: "#587CA9"
+      800: "#3F698E"
+      900: "#052E4D"
+    fire:
+      100: "#DABBBC"
+      200: "#918492"
+      300: "#FBF0CC"
+      400: "#D4C388"
+      500: "#EE804C"
+      600: "#B12F30"
+      700: "#8A0817"
+      800: "#523335"
+      900: "#010101"
+    ghost:
+      100: "#FFFFFF"
+      200: "#FCFBFD"
+      300: "#E8A29F"
+      400: "#DBCEF0"
+      500: "#9E8EA8"
+      600: "#695893"
+      700: "#9D6DDC"
+      800: "#7A29D6"
+      900: "#3F2F8B"
+
+  pokedex:
+    50: "#D1ECFD"
+    100: "#46B6F9"
+    200: "#37B349"
+    300: "#FEA707"
+    400: "#F3BFBA"
+    500: "#E56B5D"
+    600: "#DE3D2B"
+    700: "#832A24"
+    800: "#686868"
+    900: "#424242"
+    1000: "#323233"
+
+  retro:
+    50: "#FFFFFF"
+    100: "#001219"
+    200: "#005F73"
+    300: "#0A9396"
+    400: "#94D2BD"
+    500: "#E9D8A6"
+    600: "#EE9B00"
+    700: "#CA6702"
+    800: "#BB3E03"
+    900: "#AE2012"
+    1000: "#9B2226"
+
+  india:
+    blue:
+      100: "#68A9AD"
+      200: "#0E2F58"
+      300: "#2A2462"
+      400: "#2B2563"
+    red:
+      100: "#FEB00D"
+      200: "#D85B07"
+      300: "#8B4230"
+      400: "#DA4843"
+    skin:
+      100: "#CD928A"
+      200: "#8A6478"
+      300: "#A48D89"
+      400: "#5C4875"
+      500: "#60607C"
+    white:
+      100: "#BAB4A1"
+      200: "#E2D3B8"
+      300: "#F8F2EE"
+      400: "#FEF6F3"
+
+  linear:
+    50: "#FFFFFF"
+    100: "#F7F8F8"
+    200: "#5E6AD2"
+    300: "#F2C94C"
+    400: "#F74040"
+    500: "#8A8F98"
+    600: "#81808E"
+    700: "#303236"
+    800: "#27282B"
+    900: "#1F2023"
+    1000: "#040406"
+
+  discord:
+    50: "#FFFFFF"
+    100: "#B9BBBE"
+    200: "#ED4245"
+    300: "#7289DA"
+    400: "#5865F2"
+    500: "#3C45A5"
+    600: "#40444B"
+    700: "#36393F"
+    800: "#2F3136"
+    900: "#292B2F"
+    1000: "#202225"
+
+  linkedin:
+    50: "#E8F4F9"
+    100: "#CFEDFB"
+    200: "#9BDAF3"
+    300: "#68C7EC"
+    400: "#34B3E4"
+    500: "#00A0DC"
+    600: "#008CC9"
+    700: "#0077B5"
+    800: "#005E93"
+    900: "#004471"
+
+  facebook:
+    50: "#E8F4F9"
+    100: "#D9DEE9"
+    200: "#B7C2DA"
+    300: "#6482C0"
+    400: "#4267B2"
+    500: "#385898"
+    600: "#314E89"
+    700: "#29487D"
+    800: "#223B67"
+    900: "#1E355B"
+
+  messenger:
+    50: "#D0E6FF"
+    100: "#B9DAFF"
+    200: "#A2CDFF"
+    300: "#7AB8FF"
+    400: "#2E90FF"
+    500: "#0078FF"
+    600: "#0063D1"
+    700: "#0052AC"
+    800: "#003C7E"
+    900: "#002C5C"
+
+  whatsapp:
+    50: "#E2F7F4"
+    100: "#C3F0E9"
+    200: "#A0E7DC"
+    300: "#76DCCD"
+    400: "#43CFBA"
+    500: "#00BFA5"
+    600: "#00AC92"
+    700: "#009780"
+    800: "#007D6A"
+    900: "#005A4C"
+
+  twitter:
+    50: "#E5F4FD"
+    100: "#C8E9FB"
+    200: "#A8DCFA"
+    300: "#83CDF7"
+    400: "#57BBF5"
+    500: "#1DA1F2"
+    600: "#1A94DA"
+    700: "#1681BF"
+    800: "#136B9E"
+    900: "#0D4D71"
+
+  telegram:
+    50: "#E3F2F9"
+    100: "#C5E4F3"
+    200: "#A2D4EC"
+    300: "#7AC1E4"
+    400: "#47A9DA"
+    500: "#0088CC"
+    600: "#007AB8"
+    700: "#006BA1"
+    800: "#005885"
+    900: "#003F5E"

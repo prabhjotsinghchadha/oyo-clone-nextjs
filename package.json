@@ -21,8 +21,11 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
     "@next/font": "^13.0.3",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
     "next": "^13.0.3",
     "next-seo": "^5.14.1",
     "react": "^18.2.0",

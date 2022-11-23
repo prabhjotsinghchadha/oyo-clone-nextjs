@@ -8,7 +8,7 @@ import SearchBanner from '@/components/SearchBanner';
 
 const Index = () => {
   return (
-    <div className="">
+    <>
       <Head>
         <title>Oyo Nextjs App</title>
       </Head>
@@ -17,7 +17,7 @@ const Index = () => {
       <SearchBanner />
       <HeroSection />
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -1,4 +1,5 @@
-import '../styles/global.css';
+// import '../styles/global.css';
+import '@/utils/tailwind/index.css';
 
 import { Inter } from '@next/font/google';
 import type { AppProps } from 'next/app';
