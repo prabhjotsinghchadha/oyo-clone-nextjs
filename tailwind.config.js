@@ -20,6 +20,7 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      plugins: [],
       colors: {
         gray: {
           100: '#f7fafc',
@@ -48,5 +49,4 @@ module.exports = {
       ...extensions,
     },
   },
-  plugins: [],
 };

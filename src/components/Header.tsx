@@ -33,7 +33,7 @@ function Header() {
           objectPosition="left"
         />
       </div>
-      {/* Medium */}
+      {/* Middle */}
       <div className="grid cursor-pointer grid-flow-col grid-rows-2 border-r-2 border-gray-300">
         <UserGroupIcon className="row-span-3 mx-4 h-6 w-6 self-center" />
         <span className="col-span-2 text-sm font-semibold">
